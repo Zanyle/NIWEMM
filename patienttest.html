@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>NIWEMM</title>
 </head>
 <body>
@@ -41,7 +42,7 @@
                         Contacts :<br>
                         Fille TEST (Fille) <br>
                         Téléphone : 0611111111 <br>
-                        Adresse mail : Filles.Test@gmail.com <br>
+                        Adresse mail : Fille.Test@gmail.com <br>
                         Adresse : 1 rue Victor Hugo, Rennes 35000
                     </p>
                     <p class="textecontact">
@@ -57,12 +58,10 @@
     </div>
     <div class="medicaldata">
         <h2 class="police">
-            Pulsation cardiaque : 
+            Bilan de santé : 
         </h2>
-        <script type="text/javascript" src="https://api.thingspeak.com/channels/1367624/feeds.json?results=2"></script>
-        <iframe width="450" height="260" style="border: 1px solid #cccccc;"
-        src="https://api.thingspeak.com/channels/1367624/feeds.json?results=2">
-        </iframe>
+        <table class="medicalArray" id="medicalArray">
+        </table>
     </div>
 </body>
 </html>
